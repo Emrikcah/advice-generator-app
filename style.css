@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+   .padding{
+      @apply pt-10 px-6 pb-16;
+      /* padding: 40px  24px 64px; */
+   }
+
+
+}
+.hover:hover{
+   box-shadow: 0 0 35px #52ffa8;
+}
+

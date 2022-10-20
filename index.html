@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Advice Generator</title>
+   </head>
+   <body class="h-screen bg-dark-blue font-manrope">
+      <main class="grid h-screen content-center place-items-center">
+         <article id="article" class=" relative bg-dark-grayish-blue w-[343px] md:w-[540px] text-center rounded-lg padding">
+            <p class="text-neon-green text-[11px] md:text-sm">Advice # <span id="id">117</span></p>
+            <p id="advice" class="mb-10 text-light-cyan text-2xl md:text-[28px]">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+            <picture class="">
+               <source media="(min-width: 700px)" srcset="./assets/pattern-divider-desktop.svg" />
+               <img src="./assets/pattern-divider-mobile.svg" class="inline-block" alt="divider" />
+            </picture>
+            <button id="btn" class="rounded-full border-none p-5 bg-neon-green text-center absolute left-[50%] translate-x-[-50%] bottom-[-30px] hover">
+             <img src="./assets/icon-dice.svg"  alt="dice">
+            </button>
+         </article>
+      </main>
+      <script type="module" src="/main.js"></script>
+   </body>
+</html>

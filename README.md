@@ -26,4 +26,5 @@ Your users should be able to:
 
 - Semantic HTML5 markup
 - Javascript
+- Axios - A promised based HTTP Client
 - [Tailwindcss](https://tailwindcss.com/) - For styles

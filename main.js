@@ -4,7 +4,7 @@ import axios from "axios";
 const btn = document.getElementById("btn");
 const num = document.getElementById("id");
 const text = document.getElementById("advice");
-let btnCount = 0;
+
 
 const url = "https://api.adviceslip.com/advice";
 
@@ -25,10 +25,5 @@ async function getData() {
 
 
 btn.addEventListener("click", function () {
-   btnCount++;
-
-   if (btnCount > 3) {
-      console.log('your good');
-   }
    getData();
 });

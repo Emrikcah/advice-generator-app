@@ -1,4 +1,4 @@
-import "./style.css";
+import "./input.css";
 import axios from "axios";
 
 const btn = document.getElementById("btn");
